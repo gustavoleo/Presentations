@@ -48,7 +48,7 @@ $resourceAppID = "https://analysis.windows.net/powerbi/api"
     $password = $null
 
 #-------------------------------------------------------
-#Authentiate to Power BI
+#Authenticate to Power BI
 
     $auth = Invoke-RestMethod -Uri $authority -Body $authBody -Method POST -Verbose
 
